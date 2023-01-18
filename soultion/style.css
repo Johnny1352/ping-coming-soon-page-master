@@ -99,7 +99,7 @@ body {
   height: 40px;
   text-align: center;
   border: 0.3px solid hsl(223, 100%, 88%);
-  border-radius: 16px;
+  border-radius: 24px;
 }
 
 .email-input::placeholder {
@@ -118,8 +118,8 @@ body {
   font-size: 16px;
   background-color: hsl(223, 87%, 63%);
   color: #fff;
-  border-radius: 16px;
-  /* Add box shadow */
+  border-radius: 24px;
+  /* TODO: Add box shadow */
 }
 
 .illustation {

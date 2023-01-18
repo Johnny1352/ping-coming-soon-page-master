@@ -1,0 +1,38 @@
+@media (min-width: 26.5625em) {
+  .container {
+    width: 600px;
+  }
+
+  .header {
+    margin-top: 1.5rem;
+    font-size: 48px;
+    letter-spacing: -0.05rem;
+  }
+
+  .content {
+    font-size: 20px;
+  }
+
+  .input-notify-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+  }
+
+  .email-input {
+    width: 70%;
+  }
+
+  .notify-btn {
+    width: 28%;
+    justify-self: center;
+  }
+
+  .error-message {
+    position: absolute;
+    bottom: -3.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

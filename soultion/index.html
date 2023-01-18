@@ -20,6 +20,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Ping coming soon page</title>
@@ -46,13 +47,15 @@
       <main>
         <h1 class="header">We are launching <b>soon!</b></h1>
         <p class="content">Subscribe and get notified</p>
-        <input
-          type="email"
-          class="email-input"
-          placeholder="Your email address..."
-        />
-        <p class="error-message"></p>
-        <a class="notify-btn" href="#">Notify Me</a>
+        <div class="input-notify-container">
+          <input
+            type="email"
+            class="email-input"
+            placeholder="Your email address..."
+          />
+          <p class="error-message"></p>
+          <a class="notify-btn" href="#">Notify Me</a>
+        </div>
       </main>
       <img class="illustation" src="images/illustration-dashboard.png" alt="" />
       <div class="logo-container">
