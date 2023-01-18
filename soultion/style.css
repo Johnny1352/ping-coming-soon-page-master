@@ -152,12 +152,17 @@ body {
 }
 
 .error-message {
+  width: 100%;
+  text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
-  font-size: 13px;
+  font-size: 14px;
   color: hsl(354, 100%, 66%);
-  /* TEMP */
   display: none;
+}
+
+.active {
+  display: block;
 }
 
 .attribution {
